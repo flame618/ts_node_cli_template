@@ -1,7 +1,7 @@
 {
-  "name": "@byted/tiny-png",
-  "version": "0.1.2",
-  "description": "tiny png with tinypng platform",
+  "name": "ts_node_cli_template",
+  "version": "0.1.0",
+  "description": "a ts template project for node cli",
   "main": "./app/scripts/index.js",
   "scripts": {
     "build": "rm -rf lib && tsc -b",

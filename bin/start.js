@@ -8,7 +8,7 @@ const NODE_ENV = process.env.NODE_ENV;
 const dev = NODE_ENV === 'dev';
 if (dev) {
   require('ts-node').register({ project });
-  console.log("dev环境")
+  console.log("-----dev环境------");
 }
 
 require(`../${dev ? 'src' : 'lib'}/`);
