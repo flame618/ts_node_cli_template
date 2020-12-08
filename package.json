@@ -11,6 +11,10 @@
   "bin": {
     "tiny": "./bin/start.js"
   },
+  "files": [
+    "./bin",
+    "./lib"
+  ],
   "author": "machong",
   "license": "ISC",
   "dependencies": {
